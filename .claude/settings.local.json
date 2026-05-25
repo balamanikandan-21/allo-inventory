@@ -1,7 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "PowerShell($url = \"https://sbp.enterprisedb.com/getfile.jsp?fileid=1258654\"; $out = \"$env:TEMP\\\\pg17.zip\"; Invoke-WebRequest -Uri $url -OutFile $out -UseBasicParsing 2>&1 | Select-Object -Last 5; if \\(Test-Path $out\\) { \"Downloaded: $\\(\\(Get-Item $out\\).Length\\) bytes\" } else { \"Failed\" })"
-    ]
-  }
-}
