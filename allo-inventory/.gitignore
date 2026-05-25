@@ -30,3 +30,9 @@ Thumbs.db
 
 # Prisma
 prisma/migrations/
+
+.vercel
+.env*
+
+# Local dev database (embedded-postgres)
+data/
